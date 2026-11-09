@@ -1,0 +1,9 @@
+﻿PESCA PERFECTA (Ocarina of Time Remake, Lichii/Fritchii) - mod de datos (romfs), sin parches de codigo.
+
+Que cambia (valores originales -> mod):
+- Senuelo (Weapon_Lure): HitFailureFrame 180 -> 3600. Mucho mas tiempo para clavar el anzuelo antes de fallar.
+- Peces (Bass y Loach): MatchDirFailMarginTime 40/20 -> 1200 y MatchDirFailMarginTimeBig 25 -> 1200. Margen enorme al igualar la direccion del pez.
+- Peces: JumpOutPercentageBig/Small 45 -> 0. El pez ya no salta fuera del agua para soltarse.
+
+Instalar: Instalar.bat (copia a %APPDATA%\eden\load\0400486024DEC000\Pesca Perfecta). Desinstalar: Desinstalar.bat.
+Probado solo de forma estatica (archivos regenerados y verificados). Si la linea aun se rompe en algun caso, esa regla esta en la logica (.ainb) y habria que editarla aparte.

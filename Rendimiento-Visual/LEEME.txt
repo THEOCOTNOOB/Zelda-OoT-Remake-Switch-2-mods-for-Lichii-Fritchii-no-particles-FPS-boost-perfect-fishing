@@ -1,0 +1,6 @@
+﻿RENDIMIENTO VISUAL (sin probar en juego)
+- Bloom: desactivado en el juego principal (agl\BloomParam\MainField).
+- Niebla volumetrica: IsValidVolumeFog=false en 42 luces; en 11 WorldParam se apaga el ruido y la distancia final baja a 2.
+- Foliage: TurfDensity y TurfMinBlades al 75 percent (25 percent menos) en 53 valores de ResFoliageScene. Escenas que heredan el valor no cambian.
+- Desenfoque de movimiento: no hay ningun ajuste en los archivos del juego, no incluido.
+Instalar.bat / Desinstalar.bat. No modifica el juego original.

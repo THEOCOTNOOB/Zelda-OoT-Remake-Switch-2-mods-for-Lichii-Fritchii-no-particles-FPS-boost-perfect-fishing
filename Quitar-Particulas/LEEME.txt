@@ -1,0 +1,6 @@
+﻿QUITAR PARTICULAS (experimental, sin probar en juego)
+Reemplaza los 1432 archivos Effect\*.vsetb.byml.zs por uno vacio (sin emisores ni texturas).
+Instalar: ejecuta Instalar.bat (o copia mod\romfs a %APPDATA%\eden\load\0400486024DEC000\Quitar Particulas\romfs).
+Desinstalar: Desinstalar.bat. No modifica el juego original.
+Si el juego se cierra o falla: desinstala. Si quieres solo algunos efectos, dime cuales.
+Nota: static.vsetb tambien se vacia, asi que efectos comunes (chispas, fuego, magia) desapareceran.
