@@ -22,13 +22,13 @@ Cada carpeta trae `Instalar.bat` y `Desinstalar.bat`. Ninguno modifica el juego 
 ## Quitar-Particulas (elige UNA de las 3)
 Cada opcion reemplaza efectos `Effect\*.vsetb.byml.zs` por una version vacia (sin emisores ni texturas), asi la GPU no los dibuja y suben los FPS.
 Las tres se instalan en la misma carpeta (`Quitar Particulas`), asi que instalar una quita la anterior.
-**En las tres se ven las hadas (incluida Navi), el fuego azul y el hielo rojo**, que son necesarios para jugar.
+**En las tres se ven las hadas (incluida Navi), el fuego azul, el hielo rojo y todo el fuego (antorchas, velas, muros de fuego, braseros y lava)**, que son necesarios para jugar.
 
 | Opcion | Efectos quitados | Que quita | Que mantiene |
 |---|---|---|---|
-| **Quitar-Particulas-Ligero** | 337 | Solo ambiente (`EftLoc_*`): niebla, humo, vapor, polvo flotante, luciernagas, neblina de cascadas | Todo lo demas |
-| **Quitar-Particulas-Equilibrado** (recomendado) | 1099 | Ambiente + efectos de objetos y cofres, cinematicas, escenario (antorchas, lava, candelabros), NPCs y animales | Enemigos, jefes, armas, ataques de Link, magia y el archivo comun `static` |
-| **Quitar-Particulas-Total** | 1386 | Casi todo: ademas de lo anterior, efectos de enemigos y jefes (ataques, fuego, rayos), armas, magia y `static` (chispas, golpes) | Hadas, fuego azul y hielo |
+| **Quitar-Particulas-Ligero** | 317 | Solo ambiente (`EftLoc_*`): niebla, humo, vapor, polvo flotante, luciernagas, neblina de cascadas | Todo lo demas |
+| **Quitar-Particulas-Equilibrado** (recomendado) | 970 | Ambiente + efectos de objetos y cofres, cinematicas, escenario (decorado), NPCs y animales | Enemigos, jefes, armas, ataques de Link, magia y el archivo comun `static` |
+| **Quitar-Particulas-Total** | 1218 | Casi todo: ademas de lo anterior, efectos de enemigos y jefes (ataques, rayos), armas, magia y `static` (chispas, golpes) | Hadas, fuego, fuego azul y hielo |
 
 La opcion **Total** da el maximo de FPS, pero algunos ataques enemigos se vuelven dificiles de ver.
 
